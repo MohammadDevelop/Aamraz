@@ -9,10 +9,20 @@
 ## Overview
 Aamraz which is written "ئامراز" in kurdish script means "instrument". This project is a collection of Natural Language Processing tools for Kurdish Language.
 
-## Features
+## Base Features
+- **Word Embedding:** Creates vector representations of words.
 
+## Tools
 
 ## Installation
+
+## Pre-trained Models
+
+some useful pre-trained Models:
+
+| **Model**                      |      |**Size** |
+|:-------------------------------|:-----|:------- |
+| [**FastText WordEmbedding**]() |      |~ 5 GB   |
 
 ## Usage
 
