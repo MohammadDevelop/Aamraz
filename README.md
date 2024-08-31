@@ -20,9 +20,9 @@ Aamraz which is written "ئامراز" in kurdish script means "instrument". Thi
 
 some useful pre-trained Models:
 
-| **Model**                      |      |**Size** |
-|:-------------------------------|:-----|:------- |
-| [**FastText WordEmbedding**]() |      |~ 5 GB   |
+| **Model**                      | Description                                                                                                                                    |**Size** |
+|:-------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:------- |
+| [**FastText WordEmbedding**]() | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
 
 ## Usage
 
