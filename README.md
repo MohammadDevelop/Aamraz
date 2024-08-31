@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Pre-trained Models](#Pre-trained Models)
+- [Pre-trained Models](#PretrainedModels)
 - [Usage](#usage)
 
 ## Overview
@@ -16,7 +16,7 @@ Aamraz which is written "ئامراز" in kurdish script means "instrument". Thi
 
 ## Installation
 
-## Pre-trained Models
+## PretrainedModels
 
 some useful pre-trained Models:
 
