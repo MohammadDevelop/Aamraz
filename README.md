@@ -1,9 +1,9 @@
-# Aamraz
+# Aamraz - Kurdish NLP collection
 
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Pretrained-Models](#pretrained-models)
+- [Pre-trained Models](#Pre-trained Models)
 - [Usage](#usage)
 
 ## Overview
@@ -20,9 +20,10 @@ Aamraz which is written "ئامراز" in kurdish script means "instrument". Thi
 
 some useful pre-trained Models:
 
-| **Model**                      | Description                                                                                                                                    |**Size** |
-|:-------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:------- |
-| [**FastText WordEmbedding**]() | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
+| **Model**                             | Description                                                                                                                                                                                                   |**Size** |
+|:--------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------- |
+| [**FastText WordEmbedding**]()        | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
+| [**FastText WordEmbedding - Lite**]() | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
 
 ## Usage
 
