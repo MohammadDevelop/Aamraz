@@ -17,6 +17,7 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
+        'numpy>=2.1.0',
         'fasttext>=0.9.3',
     ],
 )
