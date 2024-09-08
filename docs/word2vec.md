@@ -1,7 +1,7 @@
-some useful pre-trained Models:
+pre-trained Word2vec Models
 
-| **Model**                                                                                                      | Description                                                                                                                                                                                                   | **Size** |
-|:---------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-| [**FastText WordEmbedding**](https://mega.nz/file/yNYVnDgQ#xoPydAT_75vEu0jXQIFxetFtFScdyFJpmCsAwjVUAzQ)        | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 2.3 GB |
-| [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
-| [**Word2vec Model**](https://mega.nz/file/2FxR2L7R#0B1NriaXe08y1sDMluNxJ5aY00d0s8iiXP5-g7xYcwU)                | Including needed .bin and .npy files                                                                                                                                                                          | ~ 92 MB  |
+| **Vector Size**                                                                      | Description                           | **Size** |
+|:-------------------------------------------------------------------------------------|:--------------------------------------|:---------|
+| [**100**](https://mega.nz/file/2FxR2L7R#0B1NriaXe08y1sDMluNxJ5aY00d0s8iiXP5-g7xYcwU) | Including needed .bin and .npy files  | ~ 2.3 GB |
+| [**128**](https://mega.nz/file/fYJCDaAa#yeTpmsKQKjdkTwwUm-dBqTiNoqH82535PFiXEdDBKL4) | Including needed .bin and .npy files  | ~ 800 MB |
+| [**256**](https://mega.nz/file/WcxDRZQJ#aVuK2diSyLonl4zdGhE8093aDFlzzKPTqjSLiXWGqC8) | Including needed .bin and .npy files  | ~ 92 MB  |
