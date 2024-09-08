@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aamraz',
-    version='0.0.5',
+    version='0.0.6',
     author='Mohammad Mahmoodi Varnamkhasti',
     author_email='research@amzmohammad.com',
     description='This project is a collection of Natural Language Processing tools for Kurdish Language.',
@@ -19,5 +19,6 @@ setup(
     install_requires=[
         'numpy>=2.1.0',
         'fasttext>=0.9.3',
+        'gensim>=4.3.3'
     ],
 )
