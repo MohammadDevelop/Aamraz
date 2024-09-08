@@ -15,7 +15,7 @@ Aamraz which is written "ئامراز" in kurdish script means "instrument". Thi
 ## Tools
 
 ## Installation
-
+    pip install aamraz
 ## PretrainedModels
 
 some useful pre-trained Models:
