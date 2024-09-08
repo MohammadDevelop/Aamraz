@@ -7,8 +7,8 @@ setup(
     author_email='research@amzmohammad.com',
     description='This project is a collection of Natural Language Processing tools for Kurdish Language.',
     long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',  # Change to 'text/x-rst' if using reStructuredText
-    url='https://github.com/MohammadDevelop/Aamraz',  # URL to your project
+    long_description_content_type='text/markdown',
+    url='https://github.com/MohammadDevelop/Aamraz',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
