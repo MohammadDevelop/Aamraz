@@ -20,10 +20,10 @@ Aamraz which is written "ئامراز" in kurdish script means "instrument". Thi
 
 some useful pre-trained Models:
 
-| **Model**                             | Description                                                                                                                                                                                                   |**Size** |
-|:--------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------- |
-| [**FastText WordEmbedding**](https://mega.nz/file/yNYVnDgQ#xoPydAT_75vEu0jXQIFxetFtFScdyFJpmCsAwjVUAzQ)        | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
-| [**FastText WordEmbedding - Lite**]() | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). |~ 5 GB   |
+| **Model**                             | Description                                                                                                                                                                                                   | **Size** |
+|:--------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|
+| [**FastText WordEmbedding**](https://mega.nz/file/yNYVnDgQ#xoPydAT_75vEu0jXQIFxetFtFScdyFJpmCsAwjVUAzQ)        | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 2.3 GB |
+| [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
 
 ## Usage
 
