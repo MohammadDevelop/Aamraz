@@ -39,9 +39,10 @@ word_vector = embedding_model.word_embedding(sample_word)
 sentence_vector = embedding_model.sentence_embedding(sample_sentence)
 ```
 
-# Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. 
+## License
 
-To view a copy of this license, visit: 
-https://creativecommons.org/licenses/by/4.0/
+This project is licensed under the MIT License. You are free to use, distribute, modify, and build upon this work, even for commercial purposes, as long as you include a copy of the original MIT License and provide proper attribution.
+
+To view a copy of this license, visit:
+https://opensource.org/licenses/MIT
