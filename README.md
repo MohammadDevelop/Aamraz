@@ -26,6 +26,18 @@ some useful pre-trained Models:
 | [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
 
 ## Usage
+```python
+import aamraz
+
+model_path = 'kurdish_fasttext_skipgram_dim300_v1.bin'
+embedding_model = aamraz.EmbeddingModel(model_path)
+
+sample_word="ئامراز"
+sample_sentence="زوانی له در بره"
+
+word_vector = embedding_model.word_embedding(sample_word)
+sentence_vector = embedding_model.sentence_embedding(sample_sentence)
+```
 
 # Creative Commons Attribution 4.0 International (CC BY 4.0)
 
