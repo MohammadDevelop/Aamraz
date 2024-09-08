@@ -1,3 +1,5 @@
+import re
+
 class Normalizer:
     """
     Kurdish normalizer class.
@@ -9,6 +11,21 @@ class Normalizer:
             'یککیییکیبقویتتبتتتبحاوویتتبتتتبحححچدددددددددررررررررسسسصصطعففففففققکککککگگگگگللللنننننهچهههوووووووووییییییهدرشضغهبببببببححددرسعععففکککممنننلررسححسرحاایییووییحسسکببجطفقلمییرودصگویزعکبپتریفقنااببببپپپپببببتتتتتتتتتتتتففففححححححححچچچچچچچچددددددددژژررککککگگگگگگگگگگگگننننننههههههههههییییءاااووااییییااببببتتتتثثثثججججححححخخخخددذذررززسسسسششششصصصصضضضضططططظظظظععععغغغغففففققققککککللللممممننننههههوویییییییکی"" '
         )
 
+        self.redundant_space_patterns = [
+            (r" {2,}", " "),
+            (r"\n{3,}", "\n\n"),
+            (r"\u200c{2,}", "\u200c"),
+            (r"\u200c{1,} ", " "),
+            (r" \u200c{1,}", " "),
+            (r"\b\u200c*\B", ""),
+            (r"\B\u200c*\b", ""),
+            (r"[ـ\r]", ""),
+        ]
+
     def normalize(self, text):
-        translation_table = str.maketrans(self.translation_src, self.translation_dst)
-        return text.translate(translation_table)
+        normalized_text = text.translate(str.maketrans(self.translation_src, self.translation_dst))
+
+        for pattern, replacement in self.redundant_space_patterns:
+            normalized_text = re.sub(pattern, replacement, normalized_text)
+
+        return normalized_text
