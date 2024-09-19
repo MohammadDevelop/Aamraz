@@ -38,3 +38,8 @@ sentence_vector = embedding_model.sentence_embedding(sample_sentence)
 print(word_vector)
 print(sentence_vector)
 
+# Stemming
+stemmer=aamraz.Stemmer(method='simple')
+stemmed=stemmer.stem("کتێبەکانمان")
+print(stemmed)
+

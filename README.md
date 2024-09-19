@@ -15,6 +15,7 @@ Our work aims to foster further development and provide a foundation for future 
 ## Base Features
 - **Normalization** 
 - **Tokenization** 
+- **Stemming**
 - **Word Embedding:** Creates vector representations of words.
 - **Sentences Embedding:** Creates vector representations of sentences.
 
@@ -26,11 +27,11 @@ Our work aims to foster further development and provide a foundation for future 
 
 some useful pre-trained Models:
 
-| **Model**                                                                                                      | Description                                                                                                                                                                                                   | **Size** |
-|:---------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-| [**FastText WordEmbedding**](https://mega.nz/file/yNYVnDgQ#xoPydAT_75vEu0jXQIFxetFtFScdyFJpmCsAwjVUAzQ)        | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 2.3 GB |
-| [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
-| [**Word2vec Model**](https://mega.nz/file/2FxR2L7R#0B1NriaXe08y1sDMluNxJ5aY00d0s8iiXP5-g7xYcwU)                | Including needed .bin and .npy files. Find other vector sizes [Here](docs/word2vec.md)                                                                                                                        | ~ 92 MB  |
+| **Model**                                                                                                 | Version     | Description                                                                                                                                                                                                   | **Size** |
+|:----------------------------------------------------------------------------------------------------------------|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|
+| [**FastText WordEmbedding**](https://mega.nz/file/ucxjTQoZ#rS2dv1ziJWbQQzasSJAq1QKFya4zfmcw-g1V1eUgYIw)   | 2   | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 2.3 GB |
+| [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | 1 | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
+| [**Word2vec Model**](https://mega.nz/file/2FxR2L7R#0B1NriaXe08y1sDMluNxJ5aY00d0s8iiXP5-g7xYcwU)                | 1 | Including needed .bin and .npy files. Find other vector sizes [Here](docs/word2vec.md)                                                                                                                        | ~ 92 MB  |
 
 ## Usage
 ```python
@@ -73,6 +74,11 @@ sentence_vector = embedding_model.sentence_embedding(sample_sentence)
 
 print(word_vector)
 print(sentence_vector)
+
+# Stemming
+stemmer=aamraz.Stemmer(method='simple')
+stemmed=stemmer.stem("کتێبەکانمان")
+print(stemmed)
 ```
 
 
