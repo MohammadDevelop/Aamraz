@@ -1,11 +1,5 @@
 # Aamraz - Kurdish NLP collection
 
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Pre-trained Models](#PretrainedModels)
-- [Usage](#usage)
-
 ## Overview
 Aamraz which is written "ئامراز" in kurdish script means "instrument". This project is a collection of Natural Language Processing tools for Kurdish Language.
 Despite being spoken by millions, Kurdish remains an under-resourced language in Natural Language Processing (NLP).
