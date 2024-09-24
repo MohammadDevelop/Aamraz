@@ -1,5 +1,8 @@
-/aamraz/kurdish_fasttext_skipgram_dim300_v1.bin
-/aamraz/kurdish_word2vec_model_dim100_v1.bin
+/aamraz/test/kurdish_fasttext_skipgram_dim300_v1.bin
+/aamraz/test/kurdish_word2vec_model_dim100_v1.bin
 /aamraz/kurdish_word2vec_model_dim100_v1.bin.wv.vectors.npy
 /aamraz/kurdish_word2vec_model_dim100_v1.bin.syn1neg.npy
-/aamraz/kurdish_fasttext_skipgram_dim300_v2.bin
+/aamraz/test/kurdish_fasttext_skipgram_dim300_v2.bin
+/aamraz/test/kurdish_fasttext_skipgram_dim300_v2.bin
+/aamraz/test/kurdish_word2vec_model_dim100_v1.bin
+/aamraz/test/kurdish_fasttext_skipgram_dim300_v3.bin

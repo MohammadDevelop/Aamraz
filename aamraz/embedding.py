@@ -135,3 +135,42 @@ class EmbeddingModel:
         similarities = sorted(similarities, key=lambda x: x[1], reverse=True)
         return similarities[:top_n]
 
+    def nearest_to_vector(self, vector, top_n=5, method='cosine'):
+        """
+        Find the most similar words to a given vector using the specified similarity method.
+
+        Parameters:
+            vector (np.ndarray): The vector to compare with words in the vocabulary.
+            top_n (int): The number of nearest words to return (default is 5).
+            method (str): The method to compute similarity. Options are:
+                          'cosine', 'euclidean', 'manhattan'.
+
+        Returns:
+            list of tuples: List of (word, similarity) tuples.
+        """
+        if self.type == 'fasttext':
+            vocab = self.model.get_words()
+        elif self.type == 'word2vec':
+            vocab = list(self.model.wv.index_to_key)
+        else:
+            return []
+
+        similarities = []
+
+        for vocab_word in vocab:
+            vocab_vector = self.word_embedding(vocab_word)
+            # Compute similarity between the input vector and vocab vector
+            if method == 'cosine':
+                similarity = np.dot(vector, vocab_vector) / (np.linalg.norm(vector) * np.linalg.norm(vocab_vector))
+            elif method == 'euclidean':
+                similarity = -np.linalg.norm(vector - vocab_vector)
+            elif method == 'manhattan':
+                similarity = -np.sum(np.abs(vector - vocab_vector))
+            else:
+                raise ValueError(f"Unknown method: {method}. Supported methods: 'cosine', 'euclidean', 'manhattan'")
+
+            similarities.append((vocab_word, similarity))
+
+        # Sort by similarity and return the top_n most similar words
+        similarities = sorted(similarities, key=lambda x: x[1], reverse=True)
+        return similarities[:top_n]
