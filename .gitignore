@@ -6,3 +6,7 @@
 /aamraz/test/kurdish_fasttext_skipgram_dim300_v2.bin
 /aamraz/test/kurdish_word2vec_model_dim100_v1.bin
 /aamraz/test/kurdish_fasttext_skipgram_dim300_v3.bin
+/aamraz/test/ngram_model_n5_v1.pkl
+/aamraz/test/ngram_model_n4_v1.pkl
+/aamraz/test/ngram_model_n2_v1.pkl
+/aamraz/test/ngram_model_n3_v1.pkl
