@@ -84,3 +84,4 @@ stemmed=stemmer.stem("کتێبەکانمان")
 print(stemmed)
 ```
 
+- [**Stop Word Removal**](docs/stop_words.md) 
