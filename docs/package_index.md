@@ -4,7 +4,11 @@
 Aamraz which is written "ئامراز" in kurdish script means "instrument". This project is a collection of Natural Language Processing tools for Kurdish Language.
 Despite being spoken by millions, Kurdish remains an under-resourced language in Natural Language Processing (NLP).
 Recognizing the rich cultural heritage and historical significance of the Kurdish people, we—regardless of ethnicity—are committed to advancing tools and pre-trained models that empower the Kurdish language in modern research and technology.
-Our work aims to foster further development and provide a foundation for future research and applications in NLP.
+Our work aims to foster further development and provide a foundation for future research and applications in NLP. [see github repository](https://github.com/MohammadDevelop/Aamraz)
+
+
+## Installation
+    pip install aamraz
 
 ## Base Features
 - **Normalization** 
@@ -12,20 +16,6 @@ Our work aims to foster further development and provide a foundation for future 
 - **Stemming**
 - **Word Embedding:** Creates vector representations of words.
 - **Sentences Embedding:** Creates vector representations of sentences.
-
-## Tools
-
-## Installation
-    pip install aamraz
-## PretrainedModels
-
-some useful pre-trained Models:
-
-| **Model**                                                                                                 | Version     | Description                                                                                                                                                                                                   | **Size** |
-|:----------------------------------------------------------------------------------------------------------------|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-| [**FastText WordEmbedding**](https://mega.nz/file/ucxjTQoZ#rS2dv1ziJWbQQzasSJAq1QKFya4zfmcw-g1V1eUgYIw)   | 2   | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 2.3 GB |
-| [**FastText WordEmbedding - Lite**](https://mega.nz/file/qIJ1hRoD#sctXghLp-P1O8Cg1NhOBFkum6KH0ACiHpZS-GeRwB4Q) | 1 | Model trained using [FastText](https://fasttext.cc/) method on our own Corpus.<br/> This is bot the fasttext & skip-gram model itself ([fasttext model](https://fasttext.cc/docs/en/pretrained-vectors.html). | ~ 800 MB |
-| [**Word2vec Model**](https://mega.nz/file/2FxR2L7R#0B1NriaXe08y1sDMluNxJ5aY00d0s8iiXP5-g7xYcwU)                | 1 | Including needed .bin and .npy files. Find other vector sizes [Here](docs/word2vec.md)                                                                                                                        | ~ 92 MB  |
 
 ## Usage
 ```python
