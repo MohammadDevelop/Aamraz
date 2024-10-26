@@ -1,5 +1,6 @@
 # Aamraz - Kurdish NLP collection
 [![Socket Badge](https://socket.dev/api/badge/pypi/package/aamraz/0.1.0?artifact_id=tar-gz)](https://socket.dev/pypi/package/aamraz/overview/0.1.0/tar-gz)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aamraz)
 
 - [Overview](#overview)
 - [Features](#features)
