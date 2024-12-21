@@ -21,7 +21,8 @@ Our work aims to foster further development and provide a foundation for future 
 - **Word Embedding:** Creates vector representations of words.
 - **Sentences Embedding:** Creates vector representations of sentences.
 
-## Tools
+## Datasets
+- we are now collecting analogy question-words to make a more robust embedding evaluation (Datasets/kurdish-questions-words_v0.0.2.csv).
 
 ## Installation
     pip install aamraz
